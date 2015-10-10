@@ -1,0 +1,112 @@
+/* Regular */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('/font/leaguegothic-regular-webfont.eot');
+    src: url('/font/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/leaguegothic-regular-webfont.woff') format('woff'),
+         url('/font/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('/font/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	margin:0px;
+	padding:0px;
+	font-family: "League Gothic";
+}
+
+.formatpage{
+	position:absolute;
+	left:25%;
+	width:50%;
+	height:90%;
+	
+	margin-top: 5%;
+}
+
+
+/*Formatting for index.html*/
+body{
+	background-color: #ecf0f1;
+}
+.home{
+	color: #2c3e50;
+	margin-left: 10px;
+}
+/*Formatting for the posts*/
+.default-link{
+	text-decoration: none;
+	font-size: 30px;
+	color: #34495e;
+}
+.default-meta{
+	font-size: 30px;
+}
+.page-heading{
+	font-size: 70px;
+}
+.default-list{
+	list-style-type: none;
+}
+
+/*Formatting for nav bar*/
+.navbar{
+	font-size: 40px;
+	margin-left: 10px;
+	background-color:#2c3e50;
+}
+/*Formatting for the header links */
+.page-link{
+	text-decoration: none;
+	margin-right: 15px;
+	margin-left: 10px;
+	color:white;
+}
+
+.socialheader{
+	font-size:30px;
+	margin-left: 10px;
+	background-color: white;
+	color:#34495e;
+	width:80%;
+	padding-left:5px;
+}
+.username{
+	color:#34495e;
+}
+
+/*-----------------------------------------------*/
+/*Formatting page*/
+.post{
+	margin-left:20px;
+	margin-top: 10px;
+	color: #2c3e50;
+}
+.page-content{
+	font-size: 25px;
+}
+
+/*formatting post*/
+.post-title{
+	font-size:30px;
+	text-decoration: underline;
+}
+.post-meta{
+	font-size:20px;
+}
+.post-content{
+	font-size:20px;
+}
+
+/*formatting notice*/
+.notice{
+	background-color:#f1c40f;
+	color:#34495e;
+	margin-left: 10px;
+	padding-left: 10px;
+	width:40%;
+}
+
+.notice-link{
+	color:#34495e ;
+}

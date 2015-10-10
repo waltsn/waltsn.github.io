@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="page-heading">my thoughts</div>
+  <ul class="default-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="default-meta">{{ post.date | date: "%d.%m.%Y" }} // </span>
+        <a class="default-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
