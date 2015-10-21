@@ -1,0 +1,25 @@
+<div class="leftnavbar">
+	<div class="title">
+		 <a href="{{ site.url }}">WESLEY SUN</a>
+	</div>
+
+	<div class="nav">
+	<a href="{{ site.url }}">HOME</a>
+	<br>
+	{% for page in site.pages %}
+        {% if page.title %}
+        	<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        	<br>
+        {% endif %}
+    {% endfor %}
+    </div>
+
+    <div class="sociallinks">
+		{% if site.github_username %} 
+		<a href="https://github.com/{{ site.github_username }}">
+		  <img class="navlogos" src="/logos/github.png">
+		</a>
+		{% endif %}
+	</div>
+
+</div>

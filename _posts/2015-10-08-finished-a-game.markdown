@@ -12,6 +12,6 @@ HTML5 version.
 
 So far its been really fun and people seem to enjoy it.
 
-You can check it out at [here](http://drawaword.heroku.com)
+You can check it out [[here]](http://drawaword.heroku.com)
 
 Source code is in my github, enjoy.
