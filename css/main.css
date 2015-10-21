@@ -1,112 +1,165 @@
-/* Regular */
-@font-face {
-    font-family: 'League Gothic';
-    src: url('/font/leaguegothic-regular-webfont.eot');
-    src: url('/font/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/font/leaguegothic-regular-webfont.woff') format('woff'),
-         url('/font/leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('/font/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+
 *{
 	margin:0px;
 	padding:0px;
-	font-family: "League Gothic";
 }
 
-.formatpage{
-	position:absolute;
-	left:25%;
-	width:50%;
-	height:90%;
-	
-	margin-top: 5%;
+.leftnavbar{
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	width: 170px;
+	font-family: 'Helvetica';
 }
 
-
-/*Formatting for index.html*/
-body{
-	background-color: #ecf0f1;
-}
-.home{
-	color: #2c3e50;
-	margin-left: 10px;
-}
-/*Formatting for the posts*/
-.default-link{
+.leftnavbar a:link{
 	text-decoration: none;
-	font-size: 30px;
-	color: #34495e;
+	color: black;
 }
-.default-meta{
-	font-size: 30px;
+
+
+.leftnavbar a:visited{
+	color:black;
 }
+
+.nav{
+	margin-top:10px;
+	font-size:12px;
+	font-family: "'Droid Serif', serif;";
+	font-style: italic;
+}
+.nav a:hover{
+	color:#34495e;
+}
+
+.content{
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+	width:60%;
+}
+
+.navlogos{
+	height:15px;
+	width:15px;
+	opacity: .5;
+}
+
+.navlogos:hover{
+	opacity: 1;
+}
+
+.sociallinks{
+	margin-top:10px;
+}
+
+.title{
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size:30px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width:1px;
+	border-color: #7f8c8d;
+	font-weight:bold;
+}
+
 .page-heading{
-	font-size: 70px;
+	font-weight: bold;
 }
+
 .default-list{
 	list-style-type: none;
+	font-size:12px;
 }
-
-/*Formatting for nav bar*/
-.navbar{
-	font-size: 40px;
-	margin-left: 10px;
-	background-color:#2c3e50;
-}
-/*Formatting for the header links */
-.page-link{
+.default-list a:link{
 	text-decoration: none;
-	margin-right: 15px;
-	margin-left: 10px;
-	color:white;
+	color: black;
 }
-
-.socialheader{
-	font-size:30px;
-	margin-left: 10px;
-	background-color: white;
-	color:#34495e;
-	width:80%;
-	padding-left:5px;
+.default-list a:visited{
+	color:black;
 }
-.username{
+.default-list a:hover{
 	color:#34495e;
 }
 
-/*-----------------------------------------------*/
-/*Formatting page*/
 .post{
-	margin-left:20px;
-	margin-top: 10px;
-	color: #2c3e50;
-}
-.page-content{
-	font-size: 25px;
-}
-
-/*formatting post*/
-.post-title{
-	font-size:30px;
-	text-decoration: underline;
-}
-.post-meta{
-	font-size:20px;
-}
-.post-content{
-	font-size:20px;
+	font-family: "'Droid Serif', serif;";
+	font-size: 12px;
+	border-top-style:solid;
+	border-top-width: 1px;
+	border-color: #7f8c8d;
+	padding-top: 15px;
 }
 
-/*formatting notice*/
-.notice{
-	background-color:#f1c40f;
+.post a:link{
+	text-decoration: none;
+	color:black;
+}
+.post a:hover{
 	color:#34495e;
-	margin-left: 10px;
-	padding-left: 10px;
-	width:40%;
 }
 
-.notice-link{
-	color:#34495e ;
+.post a:visited{
+	color:black;
+}
+
+.post-header{
+	font-weight: bold;
+}
+
+.projectimg{
+	height:200px;
+	width:200px;
+}
+.entry{
+	float:left;
+	padding:5px;
+}
+
+.entry a:link{
+	opacity: 0.5;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.entry a:hover{
+	opacity: 1;
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+.entry-text{
+	text-align: center;
+	border-top-style:solid;
+	border-top-width: 1px;
+	border-color: #7f8c8d;
+	font-style: italic;
+}
+
+.projects{
+	margin-top: -5px;
+	font-size:12px;
+}
+
+.notice{
+	font-size: 12px;
+	border-top-style:solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #7f8c8d;
+	margin-bottom: 10px;
+	font-style: italic;
+}
+
+.notice a:link{
+	color: black;
+	text-decoration: none;
+}
+.notice a:visited{
+	color:black;
+}
+
+.notice a:hover{
+	color:#34495e;
 }
