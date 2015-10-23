@@ -5,18 +5,12 @@
 	padding:0px;
 }
 
-body{
-	background-image:url("/pictures/back.jpg");
-
-}
-
 .leftnavbar{
 	float:left;
+	margin-left:20px;
+	margin-top:20px;
 	width: 170px;
 	font-family: 'Helvetica';
-	padding:10px;
-	margin: 5px;
-	background-color: rgba(255,255,255,0.95);
 }
 
 .leftnavbar a:link{
@@ -40,6 +34,10 @@ body{
 }
 
 .content{
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+	width:60%;
 }
 
 .navlogos{
@@ -89,11 +87,10 @@ body{
 .post{
 	font-family: "'Droid Serif', serif;";
 	font-size: 12px;
-	padding:10px;
-	background-color:white;
-	width: 50%;
-	float:left;
-	margin-top:5px;
+	border-top-style:solid;
+	border-top-width: 1px;
+	border-color: #7f8c8d;
+	padding-top: 15px;
 }
 
 .post a:link{
@@ -112,25 +109,57 @@ body{
 	font-weight: bold;
 }
 
-
-.bodyposts{
-
+.projectimg{
+	height:200px;
+	width:200px;
 }
-.mindposts{
-	padding-top:5px;
-}
-.soulposts{
-	padding-top:5px;
-}
-.home{
+.entry{
 	float:left;
-	margin-top:5px;
-	padding:10px;
-	background-color:white;
+	padding:5px;
 }
-.postindex{
-	background-color:white;
-	float:left;
-	margin-top:5px;
-	padding:10px;
+
+.entry a:link{
+	opacity: 0.5;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.entry a:hover{
+	opacity: 1;
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+.entry-text{
+	text-align: center;
+	border-top-style:solid;
+	border-top-width: 1px;
+	border-color: #7f8c8d;
+	font-style: italic;
+}
+
+.projects{
+	margin-top: -5px;
+	font-size:12px;
+}
+
+.notice{
+	font-size: 12px;
+	border-top-style:solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #7f8c8d;
+	margin-bottom: 10px;
+	font-style: italic;
+}
+
+.notice a:link{
+	color: black;
+	text-decoration: none;
+}
+.notice a:visited{
+	color:black;
+}
+
+.notice a:hover{
+	color:#34495e;
 }
