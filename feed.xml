@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hey</title>
+    <title>fitsoul.life</title>
     <description></description>
-    <link>http://www.wesleysun.com/</link>
-    <atom:link href="http://www.wesleysun.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Oct 2015 17:44:35 -0400</pubDate>
-    <lastBuildDate>Wed, 21 Oct 2015 17:44:35 -0400</lastBuildDate>
+    <link>localhost:4000/</link>
+    <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 23 Oct 2015 14:02:16 -0400</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2015 14:02:16 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -20,37 +20,182 @@
 &lt;p&gt;Right now I’m pretty satisfied.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Oct 2015 10:21:48 -0400</pubDate>
-        <link>http://www.wesleysun.com/website/update/2015/10/10/jekyll.html</link>
-        <guid isPermaLink="true">http://www.wesleysun.com/website/update/2015/10/10/jekyll.html</guid>
+        <link>localhost:4000/body/2015/10/10/jekyll%20(copy).html</link>
+        <guid isPermaLink="true">localhost:4000/body/2015/10/10/jekyll%20(copy).html</guid>
         
         
-        <category>website</category>
-        
-        <category>update</category>
+        <category>body</category>
         
       </item>
     
       <item>
-        <title>sorta finished a node.js game</title>
-        <description>&lt;p&gt;So I decided to play around with node.js and ended up making a isketch clone.
-Someone showed me isketch when I was a teen and I thought it was a really fun game
-but I cant even play the game anymore because it requires shockwave so I decided to make a
-HTML5 version.&lt;/p&gt;
+        <title>jekyll</title>
+        <description>&lt;p&gt;I stumbled upon Jekyll and it seemed pretty cool. I always found wordpress kind of intimidating.&lt;/p&gt;
 
-&lt;p&gt;So far its been really fun and people seem to enjoy it.&lt;/p&gt;
+&lt;p&gt;It’s kind of hectic at first but after a bit of tinkering this was born.&lt;/p&gt;
 
-&lt;p&gt;You can check it out &lt;a href=&quot;http://drawaword.heroku.com&quot;&gt;[here]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I guess it’s one of those things where your site’s going to evolve over time.&lt;/p&gt;
 
-&lt;p&gt;Source code is in my github, enjoy.&lt;/p&gt;
+&lt;p&gt;Right now I’m pretty satisfied.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 08 Oct 2015 10:21:48 -0400</pubDate>
-        <link>http://www.wesleysun.com/game/update/2015/10/08/finished-a-game.html</link>
-        <guid isPermaLink="true">http://www.wesleysun.com/game/update/2015/10/08/finished-a-game.html</guid>
+        <pubDate>Sat, 10 Oct 2015 10:21:48 -0400</pubDate>
+        <link>localhost:4000/body/2015/10/10/jekyll%20(copy).html</link>
+        <guid isPermaLink="true">localhost:4000/body/2015/10/10/jekyll%20(copy).html</guid>
         
         
-        <category>game</category>
+        <category>body</category>
         
-        <category>update</category>
+      </item>
+    
+      <item>
+        <title>jekyll</title>
+        <description>&lt;p&gt;I stumbled upon Jekyll and it seemed pretty cool. I always found wordpress kind of intimidating.&lt;/p&gt;
+
+&lt;p&gt;It’s kind of hectic at first but after a bit of tinkering this was born.&lt;/p&gt;
+
+&lt;p&gt;I guess it’s one of those things where your site’s going to evolve over time.&lt;/p&gt;
+
+&lt;p&gt;Right now I’m pretty satisfied.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Oct 2015 10:21:48 -0400</pubDate>
+        <link>localhost:4000/body/2015/10/10/jekyll%20(copy).html</link>
+        <guid isPermaLink="true">localhost:4000/body/2015/10/10/jekyll%20(copy).html</guid>
+        
+        
+        <category>body</category>
+        
+      </item>
+    
+      <item>
+        <title>jekyll</title>
+        <description>&lt;p&gt;I stumbled upon Jekyll and it seemed pretty cool. I always found wordpress kind of intimidating.&lt;/p&gt;
+
+&lt;p&gt;It’s kind of hectic at first but after a bit of tinkering this was born.&lt;/p&gt;
+
+&lt;p&gt;I guess it’s one of those things where your site’s going to evolve over time.&lt;/p&gt;
+
+&lt;p&gt;Right now I’m pretty satisfied.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Oct 2015 10:21:48 -0400</pubDate>
+        <link>localhost:4000/body/2015/10/10/jekyll%20(another%20copy).html</link>
+        <guid isPermaLink="true">localhost:4000/body/2015/10/10/jekyll%20(another%20copy).html</guid>
+        
+        
+        <category>body</category>
+        
+      </item>
+    
+      <item>
+        <title>jekyll</title>
+        <description>&lt;p&gt;I stumbled upon Jekyll and it seemed pretty cool. I always found wordpress kind of intimidating.&lt;/p&gt;
+
+&lt;p&gt;It’s kind of hectic at first but after a bit of tinkering this was born.&lt;/p&gt;
+
+&lt;p&gt;I guess it’s one of those things where your site’s going to evolve over time.&lt;/p&gt;
+
+&lt;p&gt;Right now I’m pretty satisfied.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Oct 2015 10:21:48 -0400</pubDate>
+        <link>localhost:4000/body/2015/10/10/jekyll%20(another%20copy).html</link>
+        <guid isPermaLink="true">localhost:4000/body/2015/10/10/jekyll%20(another%20copy).html</guid>
+        
+        
+        <category>body</category>
+        
+      </item>
+    
+      <item>
+        <title>jekyll</title>
+        <description>&lt;p&gt;I stumbled upon Jekyll and it seemed pretty cool. I always found wordpress kind of intimidating.&lt;/p&gt;
+
+&lt;p&gt;It’s kind of hectic at first but after a bit of tinkering this was born.&lt;/p&gt;
+
+&lt;p&gt;I guess it’s one of those things where your site’s going to evolve over time.&lt;/p&gt;
+
+&lt;p&gt;Right now I’m pretty satisfied.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Oct 2015 10:21:48 -0400</pubDate>
+        <link>localhost:4000/body/2015/10/10/jekyll%20(another%20copy).html</link>
+        <guid isPermaLink="true">localhost:4000/body/2015/10/10/jekyll%20(another%20copy).html</guid>
+        
+        
+        <category>body</category>
+        
+      </item>
+    
+      <item>
+        <title>jekyll</title>
+        <description>&lt;p&gt;I stumbled upon Jekyll and it seemed pretty cool. I always found wordpress kind of intimidating.&lt;/p&gt;
+
+&lt;p&gt;It’s kind of hectic at first but after a bit of tinkering this was born.&lt;/p&gt;
+
+&lt;p&gt;I guess it’s one of those things where your site’s going to evolve over time.&lt;/p&gt;
+
+&lt;p&gt;Right now I’m pretty satisfied.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Oct 2015 10:21:48 -0400</pubDate>
+        <link>localhost:4000/body/2015/10/10/jekyll%20(9th%20copy).html</link>
+        <guid isPermaLink="true">localhost:4000/body/2015/10/10/jekyll%20(9th%20copy).html</guid>
+        
+        
+        <category>body</category>
+        
+      </item>
+    
+      <item>
+        <title>jekyll</title>
+        <description>&lt;p&gt;I stumbled upon Jekyll and it seemed pretty cool. I always found wordpress kind of intimidating.&lt;/p&gt;
+
+&lt;p&gt;It’s kind of hectic at first but after a bit of tinkering this was born.&lt;/p&gt;
+
+&lt;p&gt;I guess it’s one of those things where your site’s going to evolve over time.&lt;/p&gt;
+
+&lt;p&gt;Right now I’m pretty satisfied.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Oct 2015 10:21:48 -0400</pubDate>
+        <link>localhost:4000/body/2015/10/10/jekyll%20(9th%20copy).html</link>
+        <guid isPermaLink="true">localhost:4000/body/2015/10/10/jekyll%20(9th%20copy).html</guid>
+        
+        
+        <category>body</category>
+        
+      </item>
+    
+      <item>
+        <title>jekyll</title>
+        <description>&lt;p&gt;I stumbled upon Jekyll and it seemed pretty cool. I always found wordpress kind of intimidating.&lt;/p&gt;
+
+&lt;p&gt;It’s kind of hectic at first but after a bit of tinkering this was born.&lt;/p&gt;
+
+&lt;p&gt;I guess it’s one of those things where your site’s going to evolve over time.&lt;/p&gt;
+
+&lt;p&gt;Right now I’m pretty satisfied.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Oct 2015 10:21:48 -0400</pubDate>
+        <link>localhost:4000/body/2015/10/10/jekyll%20(9th%20copy).html</link>
+        <guid isPermaLink="true">localhost:4000/body/2015/10/10/jekyll%20(9th%20copy).html</guid>
+        
+        
+        <category>body</category>
+        
+      </item>
+    
+      <item>
+        <title>jekyll</title>
+        <description>&lt;p&gt;I stumbled upon Jekyll and it seemed pretty cool. I always found wordpress kind of intimidating.&lt;/p&gt;
+
+&lt;p&gt;It’s kind of hectic at first but after a bit of tinkering this was born.&lt;/p&gt;
+
+&lt;p&gt;I guess it’s one of those things where your site’s going to evolve over time.&lt;/p&gt;
+
+&lt;p&gt;Right now I’m pretty satisfied.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Oct 2015 10:21:48 -0400</pubDate>
+        <link>localhost:4000/body/2015/10/10/jekyll%20(8th%20copy).html</link>
+        <guid isPermaLink="true">localhost:4000/body/2015/10/10/jekyll%20(8th%20copy).html</guid>
+        
+        
+        <category>body</category>
         
       </item>
     
