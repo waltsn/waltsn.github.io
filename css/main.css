@@ -6,26 +6,23 @@
 }
 
 body{
-	background-image:url("/pictures/back.jpg");
 
 }
 
-.leftnavbar{
-	float:left;
-	width: 170px;
+.topnavbar{
 	font-family: 'Helvetica';
 	padding:10px;
 	margin: 5px;
-	background-color: rgba(255,255,255,0.95);
+	text-align: center;
 }
 
-.leftnavbar a:link{
+.topnavbar a:link{
 	text-decoration: none;
 	color: black;
 }
 
 
-.leftnavbar a:visited{
+.topnavbar a:visited{
 	color:black;
 }
 
@@ -34,8 +31,9 @@ body{
 	font-size:12px;
 	font-family: "'Droid Serif', serif;";
 	font-style: italic;
+	margin-left: 10px;
 }
-.nav a:hover{
+.topnavbar a:hover{
 	color:#34495e;
 }
 
@@ -54,6 +52,7 @@ body{
 
 .sociallinks{
 	margin-top:10px;
+	text-align: center;
 }
 
 .title{
@@ -85,15 +84,27 @@ body{
 .default-list a:hover{
 	color:#34495e;
 }
+.frontposts{
+	width:50%;
+	margin-left:25%;
+	padding: 10px;
+	border-top-style:dashed;
+	border-top-width: 1px;
+	border-top-color: #95a5a6;
+}
+.frontpost-title{
+	font-size:20px;
+	font-weight: bold;
+}
+.frontpost-rm{
+	font-style: italic;
 
+}
 .post{
 	font-family: "'Droid Serif', serif;";
 	font-size: 12px;
-	padding:10px;
-	background-color:white;
-	width: 50%;
-	float:left;
-	margin-top:5px;
+	width:50%;
+	margin-left:25%;
 }
 
 .post a:link{
@@ -112,25 +123,11 @@ body{
 	font-weight: bold;
 }
 
-
-.bodyposts{
-
-}
-.mindposts{
-	padding-top:5px;
-}
-.soulposts{
-	padding-top:5px;
-}
 .home{
-	float:left;
 	margin-top:5px;
 	padding:10px;
-	background-color:white;
+	text-align: center;
 }
 .postindex{
-	background-color:white;
-	float:left;
-	margin-top:5px;
-	padding:10px;
+	text-align: center;
 }
