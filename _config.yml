@@ -1,11 +1,12 @@
 # Site settings
-title: Hey
-email: wqzsun@gmail.com
+title: fitsoul.life
+email: harshilpatel@fitsoul.life
+instagram: fitsoul.life
+youtube: channel/UCDflLhMDlY14-9sDRd06sNg
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.wesleysun.com" # the base hostname & protocol for your site
+url: "http://waltsn.github.io/" # the base hostname & protocol for your site
 
-github_username: wzsun
 
 # Build settings
 markdown: kramdown

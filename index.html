@@ -2,17 +2,27 @@
 layout: default
 ---
 
-{% include notice.html %}
+<div class="bms-exp">
+		<div class="body-exp">body placeholder</div>
+		<div class="mind-exp">mind placeholder</div>
+		<div class="soul-exp">soul placeholder</div>
+</div>
+
 <div class="home">
 
-  <div class="page-heading">BLOG</div>
-  <ul class="default-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="default-meta">{{ post.date | date: "%d.%m.%Y" }} // </span>
-        <a class="default-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+	<div>
+		<ul class="default-list">
+		{% for post in site.posts limit:5 %}
+		  <li class="frontposts">
+		  	<a class="frontpost-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		  	<br>
+		  	<span class="frontpost-header">{{ post.categories }} // </span>
+		    <span class="default-meta">{{ post.date | date: "%m/%d/%Y" }}</span>
+		    {{ post.excerpt}}
+		    <a class="frontpost-rm" href="{{ post.url | prepend: site.baseurl }}">read more</a>
+		  </li>
+		{% endfor %}
+		</ul>
+  	</div>
 
 </div>

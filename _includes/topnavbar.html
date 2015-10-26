@@ -1,0 +1,17 @@
+<div class="topnavbar">
+	<div class="title">
+		 <a href="{{ site.url }}">FITSOUL.LIFE</a>
+		 <div class="topnavbar-slogan">Live more Passionately</div>
+	</div>
+
+
+	<div class="menu">
+		<a class="nav" href="{{ site.url }}">HOME</a>
+		{% for page in site.pages %}
+	        {% if page.title %}
+	        	<a class="nav" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+	        {% endif %}
+	    {% endfor %}
+    </div>
+
+</div>
